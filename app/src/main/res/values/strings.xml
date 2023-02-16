@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="refresh">refresh</string>
+    <string name="content_description_favorite">content description favorite</string>
+    <string name="settings">settings</string>
+    <string name="content_description_search">content description settings</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="visibility">Visibility</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunrise_icon">sunrise_icon</string>
+    <string name="sunset">Sunset</string>
+    <string name="sunset_icon">sunset icon</string>
+    <string name="unit_settings_category">Unit settings</string>
+    <string name="temperature">Temperature</string>
+    <string name="time_format">Time format</string>
+    <string name="title_current_location">Current location</string>
+    <string name="summary_current_location">Location for weather forecast</string>
+    <string name="weather_icon">weather icon</string>
+    <string name="weather_condition_image">weather condition image</string>
+
+    <string name="temperature_unit">%1$d%2$s</string>
+    <string name="pressure_unit">%1$d hPa</string>
+    <string name="wind_unit">%1$s km/h</string>
+    <string name="humidity_unit">%1$d%%</string>
+    <string name="visibility_unit_m">%1$d m</string>
+    <string name="visibility_unit_km">%1$s km</string>
+    <string name="day_time_format">%1$s,  %2$s</string>
+    <string name="feels_like">Feels like %1$d%2$s</string>
+    <string name="city_country_format">%1$s,  %2$s</string>
+
+    <string name="error_no_location_access_granted">Allow using location  to get weather forecast</string>
+    <string name="error_message">Unknown last location</string>
+    <string name="error_invalid_city">Cannot load data for this city</string>
+    <string name="error_connection_lost">Connection lost: %1$s</string>
+    <string name="error_location_permission_denied">Cannot load data because location permission is denied</string>
+
+    <string name="only_approximate_location_access_granted">Please, try loading weather forecast again</string>
+    <string name="precise_location_access_granted">Please, try loading weather forecast again</string>
+    <string name="obtaining_location_method">Obtaining a location</string>
+    <string name="try_again">Try again</string>
+
+
+    <string-array name="days_of_week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>K</item>
+        <item>F</item>
+        <item>°C</item>
+    </string-array>
+
+    <string-array name="time_format">
+        <item>24</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="time_format_values">
+        <item>EE, HH:mm</item>
+        <item>EE, h:mmaa</item>
+    </string-array>
+
+    <string-array name="location_service">
+        <item>auto</item>
+        <item>manually</item>
+    </string-array>
+
+    <string-array name="location_service_boolean">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+</resources>
